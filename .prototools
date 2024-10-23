@@ -1,0 +1,9 @@
+gh = "2.59.0"
+
+[plugins]
+gh = "https://raw.githubusercontent.com/appthrust/proto-toml-plugins/main/gh/plugin.toml"
+
+[settings]
+auto-clean = true
+auto-install = true
+

@@ -1,0 +1,25 @@
+# A TOML plugin for proto:
+# https://moonrepo.dev/docs/proto/plugins#toml-plugin
+
+name = "mockery"
+type = "cli"
+
+[platform.linux]
+download-file = "mockery_2.46.3_Linux_{arch}.tar.gz"
+
+[platform.macos]
+download-file = "mockery_2.46.3_Darwin_{arch}.tar.gz"
+
+[platform.windows]
+download-file = "mockery_2.46.3_Windows_{arch}.tar.gz"
+
+[install]
+download-url = "https://github.com/vektra/mockery/releases/download/v{version}/{download_file}"
+unpack = true
+
+[install.arch]
+aarch64 = "arm64"
+x86_64 = "amd64"
+
+[resolve]
+git-url = "https://github.com/vektra/mockery"
