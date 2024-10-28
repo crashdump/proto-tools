@@ -6,19 +6,16 @@ type = "cli"
 
 [platform.linux]
 download-file = "openfga_1.6.2_linux_{arch}.tar.gz"
-checksum-file = "checksums.txt"
 
 [platform.macos]
 download-file = "openfga_1.6.2_darwin_{arch}.tar.gz"
-checksum-file = "checksums.txt"
 
 [platform.windows]
 download-file = "openfga_1.6.2_windows_{arch}.tar.gz"
-checksum-file = "checksums.txt"
 
 [install]
 download-url = "https://github.com/openfga/openfga/releases/download/v{version}/{download_file}"
-checksum-url = "https://github.com/openfga/openfga/releases/download/v{version}/{checksum_file}"
+checksum-url = "https://github.com/openfga/openfga/releases/download/v{version}/checksums.txt"
 unpack = true
 
 [install.arch]

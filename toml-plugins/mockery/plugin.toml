@@ -5,13 +5,13 @@ name = "mockery"
 type = "cli"
 
 [platform.linux]
-download-file = "mockery_2.46.3_Linux_{arch}.tar.gz"
+download-file = "mockery_{version}_Linux_{arch}.tar.gz"
 
 [platform.macos]
-download-file = "mockery_2.46.3_Darwin_{arch}.tar.gz"
+download-file = "mockery_{version}_Darwin_{arch}.tar.gz"
 
 [platform.windows]
-download-file = "mockery_2.46.3_Windows_{arch}.tar.gz"
+download-file = "mockery_{version}_Windows_{arch}.tar.gz"
 
 [install]
 download-url = "https://github.com/vektra/mockery/releases/download/v{version}/{download_file}"
