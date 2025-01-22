@@ -5,13 +5,13 @@ name = "openfga"
 type = "cli"
 
 [platform.linux]
-download-file = "openfga_1.6.2_linux_{arch}.tar.gz"
+download-file = "openfga_{version}_linux_{arch}.tar.gz"
 
 [platform.macos]
-download-file = "openfga_1.6.2_darwin_{arch}.tar.gz"
+download-file = "openfga_{version}_darwin_{arch}.tar.gz"
 
 [platform.windows]
-download-file = "openfga_1.6.2_windows_{arch}.tar.gz"
+download-file = "openfga_{version}_windows_{arch}.tar.gz"
 
 [install]
 download-url = "https://github.com/openfga/openfga/releases/download/v{version}/{download_file}"
