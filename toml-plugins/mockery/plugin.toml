@@ -19,6 +19,7 @@ unpack = true
 
 [install.arch]
 aarch64 = "arm64"
+x86_64 = "x86_64"
 
 [resolve]
 git-url = "https://github.com/vektra/mockery"

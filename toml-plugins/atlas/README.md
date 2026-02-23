@@ -1,6 +1,6 @@
 # AtlasGo plugin
 
-[AtlasGo](https://github.com/vektra/mockery) plugin for [proto](https://github.com/moonrepo/proto).
+[AtlasGo](https://github.com/ariga/atlas) plugin for [proto](https://github.com/moonrepo/proto).
 
 ## Installation
 
@@ -9,13 +9,13 @@ This is a community plugin and is thus not built-in to proto. In order to use it
 ### Global install
 
 ```shell
-proto plugin add mockery "source:https://raw.githubusercontent.com/crashdump/proto-tools/main/toml-plugins/mockery/plugin.toml" --global
-proto install mockery
+proto plugin add atlas "source:https://raw.githubusercontent.com/crashdump/proto-tools/main/toml-plugins/atlas/plugin.toml" --global
+proto install atlas
 ```
 
 ### Per-project install
 
 ```shell
-proto plugin add mockery "source:https://raw.githubusercontent.com/crashdump/proto-tools/main/toml-plugins/mockery/plugin.toml"
-proto pin mockery latest --resolve
+proto plugin add atlas "source:https://raw.githubusercontent.com/crashdump/proto-tools/main/toml-plugins/atlas/plugin.toml"
+proto pin atlas latest --resolve
 ```

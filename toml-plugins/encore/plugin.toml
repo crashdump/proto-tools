@@ -1,0 +1,28 @@
+# A TOML plugin for proto:
+# https://moonrepo.dev/docs/proto/plugins#toml-plugin
+
+name = "encore"
+type = "cli"
+
+[platform.linux]
+download-file = "encore-{version}-linux_{arch}.tar.gz"
+bin-path = "bin/encore"
+
+[platform.macos]
+download-file = "encore-{version}-darwin_{arch}.tar.gz"
+bin-path = "bin/encore"
+
+[platform.windows]
+download-file = "encore-{version}-windows_{arch}.tar.gz"
+bin-path = "bin/encore"
+
+[install]
+download-url = "https://d2f391esomvqpi.cloudfront.net/{download_file}"
+unpack = true
+
+[install.arch]
+aarch64 = "arm64"
+x86_64 = "amd64"
+
+[resolve]
+git-url = "https://github.com/encoredev/encore"

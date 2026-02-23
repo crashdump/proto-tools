@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:api.github.com)",
+      "WebSearch",
+      "WebFetch(domain:gist.github.com)",
+      "WebFetch(domain:encore.dev)",
+      "Bash(head:*)",
+      "WebFetch(domain:moonrepo.dev)",
+      "WebFetch(domain:raw.githubusercontent.com)"
+    ]
+  }
+}

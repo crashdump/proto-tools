@@ -1,6 +1,4 @@
-# A TOML plugin for proto:
-# https://moonrepo.dev/docs/proto/plugins#toml-plugin
-
+# A TOML plugin for proto: https://moonrepo.dev/docs/proto/plugins#toml-plugin
 name = "staticcheck"
 type = "cli"
 
